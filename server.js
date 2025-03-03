@@ -41,7 +41,7 @@ app.post('/register', (req, res) => {
     users.push(newUser);
     fs.writeFileSync(
         path.join(__dirname, 'user.json'),
-        JSON.stringify(users, null, 2)
+        JSON.stringify(users)
     );
 
     res.status(201).json({ message: 'User registered successfully' });
@@ -84,7 +84,7 @@ app.put('/users/:username', (req, res) => {
     users[userIndex].password = newPassword;
     fs.writeFileSync(
         path.join(__dirname, 'user.json'),
-        JSON.stringify(users, null, 2)
+        JSON.stringify(users)
     );
 
     res.json({ message: 'Password updated successfully' });
@@ -111,7 +111,7 @@ function getNextId(collection) {
     Object.values(collection).forEach(item => {
         if (item.id > maxId) maxId = item.id;
     });
-    return maxId + 1;
+    return Object.keys(collection).length;;
 }
 
 app.post('/restaurant', (req, res) => {
@@ -133,12 +133,11 @@ app.post('/restaurant', (req, res) => {
     const restaurantArray = Object.values(restaurants);
     fs.writeFileSync(
         path.join(__dirname, 'data.json'),
-        JSON.stringify(restaurantArray, null, 2)
+        JSON.stringify(restaurantArray, null,2)
     );
 
     res.status(201).json({
         message: 'Restaurant created successfully',
-        restaurant: restaurantWithId
     });
 });
 
@@ -161,7 +160,7 @@ app.post('/restaurant/:id', (req, res) => {
         const restaurantArray = Object.values(restaurants);
         fs.writeFileSync(
             path.join(__dirname, 'data.json'),
-            JSON.stringify(restaurantArray, null, 2),
+            JSON.stringify(restaurantArray),
             'utf-8'
         );
 
@@ -174,10 +173,5 @@ app.post('/restaurant/:id', (req, res) => {
 
 
 const server = app.listen(5000, () => {
-    console.log(`Server running on port 5000`);
+    console.log('Server running on port 5000');
 });
-
-
-
-
-
