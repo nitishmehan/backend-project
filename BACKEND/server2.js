@@ -146,8 +146,6 @@ app.post('/restaurant/:id', (req, res) => {
     }
 });
 
-
-// Utility function to load blogs
 const loadBlogs = () => {
     try {
       const data = fs.readFileSync(BLOGS_FILE, 'utf-8');
@@ -158,7 +156,6 @@ const loadBlogs = () => {
     }
   };
   
-  // Utility function to save blogs
   const saveBlogs = (blogs) => {
     try {
       fs.writeFileSync(BLOGS_FILE, JSON.stringify(blogs, null, 2));
@@ -167,12 +164,10 @@ const loadBlogs = () => {
     }
   };
   
-  // Get all blogs
   app.get('/api/blogs', (req, res) => {
     res.json(loadBlogs());
   });
   
-  // Get a single blog by ID
   app.get('/api/blogs/:id', (req, res) => {
     const blogs = loadBlogs();
     const blog = blogs.find(blog => blog.id === parseInt(req.params.id));
@@ -184,7 +179,6 @@ const loadBlogs = () => {
     res.json(blog);
   });
   
-  // Create a new blog
   app.post('/api/blogs', (req, res) => {
     const blogs = loadBlogs();
     const newBlog = {
@@ -198,7 +192,6 @@ const loadBlogs = () => {
     res.status(201).json(newBlog);
   });
   
-  // Delete a blog by ID
   app.delete('/api/blogs/:id', (req, res) => {
     let blogs = loadBlogs();
     const blogId = parseInt(req.params.id);
@@ -214,7 +207,6 @@ const loadBlogs = () => {
     res.json({ message: `Blog with ID ${blogId} deleted successfully` });
   });
   
-  // Update a blog by ID
   app.put('/api/blogs/:id', (req, res) => {
     let blogs = loadBlogs();
     const blogId = parseInt(req.params.id);
