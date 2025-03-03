@@ -18,7 +18,8 @@ restaurantData.forEach(restaurant => {
     restaurants[restaurant.id] = restaurant;
 });
 
-// Authentication routes
+
+
 app.post('/register', (req, res) => {
     const { username, password } = req.body;
 
@@ -26,7 +27,7 @@ app.post('/register', (req, res) => {
         return res.status(400).json({ error: 'Username and password required' });
     }
 
-    // Check if username already exists
+
     if (users.find(user => user.username === username)) {
         return res.status(400).json({ error: 'Username already exists' });
     }
@@ -62,7 +63,6 @@ app.post('/login', (req, res) => {
     res.json({ message: 'Login successful', userId: user.id });
 });
 
-// PUT route to update password
 app.put('/users/:username', (req, res) => {
     const { username } = req.params;
     const{ oldPassword, newPassword } = req.body;
@@ -90,7 +90,6 @@ app.put('/users/:username', (req, res) => {
     res.json({ message: 'Password updated successfully' });
 });
 
-// Route to get all restaurants basic info
 app.get('/restaurant', (req, res) => {
     const restaurantList = Object.values(restaurants).map(({ id, name }) => ({
         id,
@@ -99,7 +98,6 @@ app.get('/restaurant', (req, res) => {
     res.json(restaurantList);
 });
 
-// Route to get restaurant menu by ID
 app.get('/restaurant/:id', (req, res) => {
     const { id } = req.params;
     if (!restaurants[id]) {
@@ -108,48 +106,43 @@ app.get('/restaurant/:id', (req, res) => {
     res.json(restaurants[id].menu);
 });
 
-// Route to create a new restaurant
+function getNextId(collection) {
+    let maxId = 0;
+    Object.values(collection).forEach(item => {
+        if (item.id > maxId) maxId = item.id;
+    });
+    return maxId + 1;
+}
+
 app.post('/restaurant', (req, res) => {
     const newRestaurant = req.body;
 
-    // Validate request body
     if (!newRestaurant.name) {
-        return res.send('<h1> Your Menyu is empty. Update it </h1>');
+        return res.send('<h1> Your Menu is empty. Update it </h1>');
     }
 
-    try {
-        // Calculate next ID
-        const nextId = Math.max(...Object.keys(restaurants).map(Number)) + 1;
+    const nextId = getNextId(restaurants);
+    
+    const restaurantWithId = {
+        id: nextId,
+        name: newRestaurant.name,
+        menu: newRestaurant.menu || []
+    };
 
-        // Create new restaurant object with ID
-        const restaurantWithId = {
-            id: nextId,
-            name: newRestaurant.name,
-            menu: newRestaurant.menu
-        };
+    restaurants[nextId] = restaurantWithId;
+    const restaurantArray = Object.values(restaurants);
+    fs.writeFileSync(
+        path.join(__dirname, 'data.json'),
+        JSON.stringify(restaurantArray, null, 2)
+    );
 
-        // Add to memory
-        restaurants[nextId] = restaurantWithId;
-
-        // Convert back to array and save to file
-        const restaurantArray = Object.values(restaurants);
-        fs.writeFileSync(
-            path.join(__dirname, 'data.json'),
-            JSON.stringify(restaurantArray, null, 2),
-            'utf-8'
-        );
-
-        res.status(201).json({
-            message: 'Restaurant created successfully',
-            restaurant: restaurantWithId
-        });
-    } catch (error) {
-        console.error('Error creating restaurant:', error);
-        res.status(500).json({ error: 'Failed to create restaurant' });
-    }
+    res.status(201).json({
+        message: 'Restaurant created successfully',
+        restaurant: restaurantWithId
+    });
 });
 
-// Route to update restaurant menu by ID
+
 app.post('/restaurant/:id', (req, res) => {
     const { id } = req.params;
     const newMenu = req.body;
@@ -163,13 +156,9 @@ app.post('/restaurant/:id', (req, res) => {
     }
 
     try {
-        // Update in memory
+
         restaurants[id].menu = newMenu;
-
-        // Convert back to array for file saving
         const restaurantArray = Object.values(restaurants);
-
-        // Write back to file
         fs.writeFileSync(
             path.join(__dirname, 'data.json'),
             JSON.stringify(restaurantArray, null, 2),
