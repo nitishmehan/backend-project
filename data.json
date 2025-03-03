@@ -1,0 +1,424 @@
+[
+  {
+    "id": 1,
+    "name": "Tasty Bites Restaurant",
+    "menu": [
+      {
+        "category": "Best Seller",
+        "itemList": [
+          {
+            "name": "Ultimate Loaded Nacho Fiesta",
+            "rating": 1,
+            "desc": "Nacho typically consists of layers of crispy tortilla chips topped with a variety of ingredients including melted cheese, seasoned ground beef, sour cream, guacamole, and fresh salsa.",
+            "price": 40,
+            "imgPath": "images/Noodles.png"
+          },
+          {
+            "name": "Penne pasta with tomato sauce",
+            "rating": 1,
+            "desc": "Penne pasta is a versatile and popular type of pasta that is shaped like tubes with diagonally-cut ends, served with rich tomato sauce and fresh herbs.",
+            "price": 20,
+            "imgPath": "images/11.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Special Combos",
+        "itemList": [
+          {
+            "name": "Burger & French fries",
+            "rating": 1,
+            "desc": "Your burger dish is a perfect combination of flavors and textures, served with crispy golden French fries on the side.",
+            "price": 30,
+            "imgPath": "images/1.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Sandwich",
+        "itemList": [
+          {
+            "name": "Smoked Salmon Sandwich",
+            "rating": 1,
+            "desc": "This sandwich is a delightful combination of fresh crisp lettuce, juicy tomato, nestled with premium smoked salmon and cream cheese spread.",
+            "price": 20,
+            "imgPath": "images/2.jpg"
+          },
+          {
+            "name": "Avocado toasts with radish",
+            "rating": 1,
+            "desc": "This sandwich is a delightful combination of fresh creamy avocado slices on toasted artisan bread, topped with crispy radish and microgreens.",
+            "price": 26,
+            "imgPath": "images/3.jpg"
+          },
+          {
+            "name": "Cranberry Club Sandwich",
+            "rating": 1,
+            "desc": "The club sandwich is a classic favorite, known for its layers of deliciousness all sandwiched between three slices of toasted bread, featuring turkey, bacon, and cranberry sauce.",
+            "price": 50,
+            "imgPath": "images/4.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Pasta",
+        "itemList": [
+          {
+            "name": "Pasta salad with balsamic vinegar",
+            "rating": 1,
+            "desc": "Green vegetable pasta dish that incorporates various fresh vegetables tossed in a light balsamic vinaigrette.",
+            "price": 20,
+            "imgPath": "images/8.jpg"
+          },
+          {
+            "name": "Striped handmade ravioli",
+            "rating": 1,
+            "desc": "Ravioli is a traditional Italian pasta dish loved for its delicate, pillow-like pockets filled with ricotta cheese and herbs.",
+            "price": 20,
+            "imgPath": "images/9.jpg"
+          },
+          {
+            "name": "Pasta carbonara on a plate",
+            "rating": 1,
+            "desc": "Carbonara pasta is a classic Italian dish known for its rich and creamy sauce made with eggs, pecorino cheese, pancetta, and black pepper.",
+            "price": 55,
+            "imgPath": "images/10.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Pasta",
+        "itemList": [
+          {
+            "name": "Pasta salad with balsamic vinegar",
+            "rating": 1,
+            "desc": "Green vegetable pasta dish that incorporates various fresh vegetables tossed in a light balsamic vinaigrette.",
+            "price": 20,
+            "imgPath": "images/8.jpg"
+          },
+          {
+            "name": "Striped handmade ravioli",
+            "rating": 1,
+            "desc": "Ravioli is a traditional Italian pasta dish loved for its delicate, pillow-like pockets filled with ricotta cheese and herbs.",
+            "price": 20,
+            "imgPath": "images/9.jpg"
+          },
+          {
+            "name": "Pasta carbonara on a plate",
+            "rating": 1,
+            "desc": "Carbonara pasta is a classic Italian dish known for its rich and creamy sauce made with eggs, pecorino cheese, pancetta, and black pepper.",
+            "price": 55,
+            "imgPath": "images/10.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spice Garden",
+    "menu": [
+      {
+        "category": "Best Seller",
+        "itemList": [
+          {
+            "name": "Butter Chicken",
+            "rating": 1,
+            "desc": "Rich and creamy curry made with tender chicken pieces in a tomato-based sauce.",
+            "price": 45,
+            "imgPath": "images/butter-chicken.jpg"
+          },
+          {
+            "name": "Biryani Special",
+            "rating": 1,
+            "desc": "Aromatic rice dish cooked with spices and your choice of meat or vegetables.",
+            "price": 35,
+            "imgPath": "images/biryani.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Main Course",
+        "itemList": [
+          {
+            "name": "Paneer Tikka Masala",
+            "rating": 1,
+            "desc": "Grilled cottage cheese cubes in a rich, spiced tomato-cream sauce.",
+            "price": 40,
+            "imgPath": "images/paneer-tikka.jpg"
+          },
+          {
+            "name": "Dal Makhani",
+            "rating": 1,
+            "desc": "Creamy black lentils slow-cooked with butter and spices.",
+            "price": 30,
+            "imgPath": "images/dal-makhani.jpg"
+          },
+          {
+            "name": "Chicken Tikka",
+            "rating": 1,
+            "desc": "Marinated chicken pieces grilled to perfection in tandoor.",
+            "price": 42,
+            "imgPath": "images/chicken-tikka.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Breads",
+        "itemList": [
+          {
+            "name": "Garlic Naan",
+            "rating": 1,
+            "desc": "Freshly baked bread with garlic and butter.",
+            "price": 8,
+            "imgPath": "images/garlic-naan.jpg"
+          },
+          {
+            "name": "Butter Roti",
+            "rating": 1,
+            "desc": "Whole wheat bread brushed with butter.",
+            "price": 6,
+            "imgPath": "images/butter-roti.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "itemList": [
+          {
+            "name": "Gulab Jamun",
+            "rating": 1,
+            "desc": "Sweet milk dumplings soaked in sugar syrup.",
+            "price": 15,
+            "imgPath": "images/gulab-jamun.jpg"
+          },
+          {
+            "name": "Rasmalai",
+            "rating": 1,
+            "desc": "Soft cottage cheese patties in sweetened milk.",
+            "price": 18,
+            "imgPath": "images/rasmalai.jpg"
+          },
+          {
+            "name": "Kheer",
+            "rating": 1,
+            "desc": "Traditional rice pudding with nuts and cardamom.",
+            "price": 16,
+            "imgPath": "images/kheer.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pizza Paradise",
+    "menu": [
+      {
+        "category": "Best Seller",
+        "itemList": [
+          {
+            "name": "Margherita Supreme",
+            "rating": 1,
+            "desc": "Classic pizza with fresh mozzarella, tomatoes, and basil.",
+            "price": 28,
+            "imgPath": "images/margherita.jpg"
+          },
+          {
+            "name": "BBQ Chicken Pizza",
+            "rating": 1,
+            "desc": "Smoky BBQ sauce, grilled chicken, red onions, and fresh cilantro.",
+            "price": 32,
+            "imgPath": "images/bbq-pizza.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Specialty Pizzas",
+        "itemList": [
+          {
+            "name": "Mediterranean Delight",
+            "rating": 1,
+            "desc": "Olives, feta, sun-dried tomatoes, and spinach.",
+            "price": 34,
+            "imgPath": "images/mediterranean.jpg"
+          },
+          {
+            "name": "Meat Lovers",
+            "rating": 1,
+            "desc": "Pepperoni, sausage, bacon, and ground beef.",
+            "price": 36,
+            "imgPath": "images/meat-lovers.jpg"
+          },
+          {
+            "name": "Veggie Supreme",
+            "rating": 1,
+            "desc": "Bell peppers, mushrooms, onions, olives, and corn.",
+            "price": 30,
+            "imgPath": "images/veggie-supreme.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Sides",
+        "itemList": [
+          {
+            "name": "Garlic Breadsticks",
+            "rating": 1,
+            "desc": "Freshly baked breadsticks with garlic butter.",
+            "price": 12,
+            "imgPath": "images/breadsticks.jpg"
+          },
+          {
+            "name": "Chicken Wings",
+            "rating": 1,
+            "desc": "Crispy wings with choice of sauce.",
+            "price": 18,
+            "imgPath": "images/wings.jpg"
+          },
+          {
+            "name": "Caesar Salad",
+            "rating": 1,
+            "desc": "Fresh romaine lettuce with caesar dressing.",
+            "price": 14,
+            "imgPath": "images/caesar.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Dessert Pizzas",
+        "itemList": [
+          {
+            "name": "Nutella Pizza",
+            "rating": 1,
+            "desc": "Sweet pizza with Nutella and banana slices.",
+            "price": 24,
+            "imgPath": "images/nutella-pizza.jpg"
+          },
+          {
+            "name": "Apple Cinnamon Pizza",
+            "rating": 1,
+            "desc": "Caramelized apples with cinnamon streusel.",
+            "price": 22,
+            "imgPath": "images/apple-pizza.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tasty Bites Restaurant",
+    "menu": [
+      {
+        "category": "Best Seller",
+        "itemList": [
+          {
+            "name": "Ultimate Loaded Nacho Fiesta",
+            "rating": 1,
+            "desc": "Nacho typically consists of layers of crispy tortilla chips topped with a variety of ingredients including melted cheese, seasoned ground beef, sour cream, guacamole, and fresh salsa.",
+            "price": 40,
+            "imgPath": "images/Noodles.png"
+          },
+          {
+            "name": "Penne pasta with tomato sauce",
+            "rating": 1,
+            "desc": "Penne pasta is a versatile and popular type of pasta that is shaped like tubes with diagonally-cut ends, served with rich tomato sauce and fresh herbs.",
+            "price": 20,
+            "imgPath": "images/11.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Special Combos",
+        "itemList": [
+          {
+            "name": "Burger & French fries",
+            "rating": 1,
+            "desc": "Your burger dish is a perfect combination of flavors and textures, served with crispy golden French fries on the side.",
+            "price": 30,
+            "imgPath": "images/1.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Sandwich",
+        "itemList": [
+          {
+            "name": "Smoked Salmon Sandwich",
+            "rating": 1,
+            "desc": "This sandwich is a delightful combination of fresh crisp lettuce, juicy tomato, nestled with premium smoked salmon and cream cheese spread.",
+            "price": 20,
+            "imgPath": "images/2.jpg"
+          },
+          {
+            "name": "Avocado toasts with radish",
+            "rating": 1,
+            "desc": "This sandwich is a delightful combination of fresh creamy avocado slices on toasted artisan bread, topped with crispy radish and microgreens.",
+            "price": 26,
+            "imgPath": "images/3.jpg"
+          },
+          {
+            "name": "Cranberry Club Sandwich",
+            "rating": 1,
+            "desc": "The club sandwich is a classic favorite, known for its layers of deliciousness all sandwiched between three slices of toasted bread, featuring turkey, bacon, and cranberry sauce.",
+            "price": 50,
+            "imgPath": "images/4.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Pasta",
+        "itemList": [
+          {
+            "name": "Pasta salad with balsamic vinegar",
+            "rating": 1,
+            "desc": "Green vegetable pasta dish that incorporates various fresh vegetables tossed in a light balsamic vinaigrette.",
+            "price": 20,
+            "imgPath": "images/8.jpg"
+          },
+          {
+            "name": "Striped handmade ravioli",
+            "rating": 1,
+            "desc": "Ravioli is a traditional Italian pasta dish loved for its delicate, pillow-like pockets filled with ricotta cheese and herbs.",
+            "price": 20,
+            "imgPath": "images/9.jpg"
+          },
+          {
+            "name": "Pasta carbonara on a plate",
+            "rating": 1,
+            "desc": "Carbonara pasta is a classic Italian dish known for its rich and creamy sauce made with eggs, pecorino cheese, pancetta, and black pepper.",
+            "price": 55,
+            "imgPath": "images/10.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Pasta",
+        "itemList": [
+          {
+            "name": "Pasta salad with balsamic vinegar",
+            "rating": 1,
+            "desc": "Green vegetable pasta dish that incorporates various fresh vegetables tossed in a light balsamic vinaigrette.",
+            "price": 20,
+            "imgPath": "images/8.jpg"
+          },
+          {
+            "name": "Striped handmade ravioli",
+            "rating": 1,
+            "desc": "Ravioli is a traditional Italian pasta dish loved for its delicate, pillow-like pockets filled with ricotta cheese and herbs.",
+            "price": 20,
+            "imgPath": "images/9.jpg"
+          },
+          {
+            "name": "Pasta carbonara on a plate",
+            "rating": 1,
+            "desc": "Carbonara pasta is a classic Italian dish known for its rich and creamy sauce made with eggs, pecorino cheese, pancetta, and black pepper.",
+            "price": 55,
+            "imgPath": "images/10.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]
