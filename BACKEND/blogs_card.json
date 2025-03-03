@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "img": "https://example.com/image1.jpg",
+    "title": "Paradise Taste of Meals",
+    "content": "A world of gourmet ingredients and specialty products that will inspire your culinary creativity. From aged balsamic vinegar to truffle-infused oils and imported cheeses, these indulgent treats add a touch of luxury to any meal.",
+    "author": "Furion",
+    "date": "May 30, 2024",
+    "category": "Gourmet"
+  },
+  {
+    "id": 2,
+    "img": "https://example.com/image2.jpg",
+    "title": "Heaven Flavour Of Dishes",
+    "content": "A world where crispy tortilla chips meet a symphony of flavors, creating a nachos experience like no other. Our signature nachos dish is a testament to culinary excellence, promising a fiesta of taste sensations that will leave you.",
+    "author": "John",
+    "date": "May 20, 2024",
+    "category": "Snacks"
+  },
+  {
+    "id": 3,
+    "img": "https://example.com/image3.jpg",
+    "title": "Happiness Taste Of Panner",
+    "content": "A world of gourmet ingredients and specialty products that will inspire your culinary creativity. From aged balsamic vinegar to truffle-infused oils and imported cheeses, these indulgent treats add a touch of luxury to any meal.",
+    "author": "Furion",
+    "date": "May 30, 2024",
+    "category": "Vegetarian"
+  },
+  {
+    "id": 4,
+    "img": "https://example.com/image4.jpg",
+    "title": "The Evolution Of Food",
+    "content": "The joy of falafel with us and discover why it has become a cherished staple of Mediterranean cuisine. With its irresistible flavors, satisfying textures, and endless versatility, our falafel dish is sure to leave you smiling and satisfied.",
+    "author": "Johnny",
+    "date": "April 10, 2024",
+    "category": "Mediterranean"
+  },
+  {
+    "id": 5,
+    "img": "https://example.com/image5.jpg",
+    "title": "Taste Of Peace In Food",
+    "content": "The magic of samosas with us and discover why they have become a beloved staple of Indian cuisine. Whether you're a lifelong fan or trying them for the first time, our samosa dish promises to delight your senses and leave you wanting more.",
+    "author": "Mary",
+    "date": "March 22, 2024",
+    "category": "Indian Cuisine"
+  },
+  {
+    "id": 6,
+    "img": "https://example.com/image6.jpg",
+    "title": "Perfect Taste Of Cuisine",
+    "content": "Indulge your senses as you savor the rich, robust flavors of our pasta dish. Each bite is a revelation, with layers of savory tomato sauce, fragrant herbs, and creamy cheese coming together in perfect harmony to create a taste sensation.",
+    "author": "Celia",
+    "date": "March 15, 2024",
+    "category": "Italian"
+  },
+  {
+    "id": 7,
+    "img": "https://example.com/image7.jpg",
+    "title": "Authentic Indian Spices",
+    "content": "Experience the rich and aromatic flavors of traditional Indian spices, carefully curated to enhance your culinary adventures and bring depth to every dish.",
+    "author": "Raj",
+    "date": "June 5, 2024",
+    "category": "Indian Cuisine"
+  },
+  {
+    "id": 8,
+    "img": "https://example.com/image8.jpg",
+    "title": "Mediterranean Delight",
+    "content": "Enjoy a taste of the Mediterranean with fresh olives, sun-dried tomatoes, and feta cheese, perfectly blended for a nutritious and delicious meal.",
+    "author": "Sophia",
+    "date": "June 12, 2024",
+    "category": "Mediterranean"
+  },
+  {
+    "id": 9,
+    "img": "https://example.com/image9.jpg",
+    "title": "Sweet Treats and Desserts",
+    "content": "Indulge in a variety of gourmet desserts, from creamy cheesecakes to rich chocolate mousse, satisfying your sweet cravings in every bite.",
+    "author": "Emma",
+    "date": "July 1, 2024",
+    "category": "Desserts"
+  },
+  {
+    "id": 10,
+    "img": "https://example.com/images/updated-image.jpg",
+    "title": "pakode",
+    "content": "Updated content for the blog.",
+    "author": "Updated Author",
+    "date": "March 4, 2025",
+    "category": "updated-category"
+  }
+]
