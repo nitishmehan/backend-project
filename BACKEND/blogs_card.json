@@ -88,5 +88,14 @@
     "author": "Updated Author",
     "date": "March 4, 2025",
     "category": "updated-category"
+  },
+  {
+    "id": 11,
+    "title": "Delicious Vegan Pasta",
+    "content": "A simple and tasty vegan pasta recipe with fresh herbs and olive oil.",
+    "author": "Jane Doe",
+    "date": "March 3, 2025",
+    "category": "vegan",
+    "img": "https://example.com/images/vegan-pasta.jpg"
   }
 ]

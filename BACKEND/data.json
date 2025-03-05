@@ -218,7 +218,7 @@
   },
   {
     "id": 4,
-    "name": "Tasty Bites Restaurant",
+    "name": "Mudit ka Dhabba",
     "menu": [
       {
         "category": "Best Seller",
@@ -236,44 +236,6 @@
             "desc": "Penne pasta is a versatile and popular type of pasta that is shaped like tubes with diagonally-cut ends, served with rich tomato sauce and fresh herbs.",
             "price": 20,
             "imgPath": "images/11.jpg"
-          }
-        ]
-      },
-      {
-        "category": "Special Combos",
-        "itemList": [
-          {
-            "name": "Burger & French fries",
-            "rating": 1,
-            "desc": "Your burger dish is a perfect combination of flavors and textures, served with crispy golden French fries on the side.",
-            "price": 30,
-            "imgPath": "images/1.jpg"
-          }
-        ]
-      },
-      {
-        "category": "Sandwich",
-        "itemList": [
-          {
-            "name": "Smoked Salmon Sandwich",
-            "rating": 1,
-            "desc": "This sandwich is a delightful combination of fresh crisp lettuce, juicy tomato, nestled with premium smoked salmon and cream cheese spread.",
-            "price": 20,
-            "imgPath": "images/2.jpg"
-          },
-          {
-            "name": "Avocado toasts with radish",
-            "rating": 1,
-            "desc": "This sandwich is a delightful combination of fresh creamy avocado slices on toasted artisan bread, topped with crispy radish and microgreens.",
-            "price": 26,
-            "imgPath": "images/3.jpg"
-          },
-          {
-            "name": "Cranberry Club Sandwich",
-            "rating": 1,
-            "desc": "The club sandwich is a classic favorite, known for its layers of deliciousness all sandwiched between three slices of toasted bread, featuring turkey, bacon, and cranberry sauce.",
-            "price": 50,
-            "imgPath": "images/4.jpg"
           }
         ]
       }
